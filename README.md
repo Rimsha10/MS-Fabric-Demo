@@ -1,7 +1,7 @@
 # MS-Fabric-Demo
 MS-Fabric-Demo-Project
-Customer Churn Prediction: In this project, we will predict whether a predict whether bank customers would churn or not. The project requires Data ingestion and orchestration, Data Cleaning, Data Visualiation and Machine learning Model. The following Microsoft Fabric workload were used for the project delivery:
-1. Data Engineering(Data Factory & Synpase Engineering)
+Customer Churn Prediction: In this project, we will predict whether bank customers will churn. The project requires Data ingestion and orchestration, Data Cleaning, Data Visualization, and Machine learning models. The following Microsoft Fabric workloads were used for the project delivery:
+1. Data Engineering(Data Factory & Synapse Engineering)
 2. Data Science
 3. Data Analysis(Power BI)
 
@@ -15,12 +15,15 @@ Pipeline SetUp
 ![image](https://github.com/user-attachments/assets/8c3b39ef-330f-4169-9674-c2cea2c7c8aa)
 
 # Data Engineering
-The Dataset for this project was extracted from blob storage using copydata activity, transformed and Loaded into an already created lakehouse using dataflow gen2 that opens up the Power Query online.
-On Power query, the lakehouse destination must be specified before publishing.
+The Dataset for this project was extracted from blob storage using copy data activity, transformed, and Loaded into an already created lakehouse using dataflow gen2 that opens up the Power Query online.
+On the Power query, the lakehouse destination must be specified before publishing.
 ![image](https://github.com/user-attachments/assets/daf81ac2-345b-41da-8b36-a8861594013e)
 
 # Data Science
-Spark notebook was created to build the machine learning model after it was connected to the existing lakehouse. 
+Spark Notebook was created to build the machine learning model after it was connected to the existing lakehouse. 
+![image](https://github.com/user-attachments/assets/481c3f02-cf49-4709-9c46-b0257cd9b25b)
 
 # Data Analysis(Power BI)
-Using the sematic model created in the Lakehouse, generate PowerBI Dashboard to perform analytics.
+Using the semantic model created in the Lakehouse, generate a PowerBI Dashboard to perform analytics.
+![image](https://github.com/user-attachments/assets/9219bfb1-602b-4dac-9c56-56283d63cd1e)
+
