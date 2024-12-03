@@ -17,7 +17,7 @@ Pipeline SetUp
 # Data Engineering
 The Dataset for this project was extracted from blob storage using copy data activity, transformed, and Loaded into an already created lakehouse using dataflow gen2 that opens up the Power Query online.
 On the Power query, the lakehouse destination must be specified before publishing.
-![image](https://github.com/user-attachments/assets/daf81ac2-345b-41da-8b36-a8861594013e)
+![image](https://github.com/user-attachments/assets/2134063d-37bb-4dc1-9c4b-cb209a2944e5)
 
 # Data Science
 Spark Notebook was created to build the machine learning model after it was connected to the existing lakehouse. 
