@@ -27,3 +27,4 @@ Spark Notebook was created to build the machine learning model after it was conn
 Using the semantic model created in the Lakehouse, generate a PowerBI Dashboard to perform analytics.
 ![image](https://github.com/user-attachments/assets/9219bfb1-602b-4dac-9c56-56283d63cd1e)
 
+Blog: https://datasciencedojo.com/blog/microsoft-fabric-sales-use-case/
