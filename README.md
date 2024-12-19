@@ -4,15 +4,17 @@ Customer Churn Prediction: This project showcases a simple workflow in MS Fabric
 1. Data Factory & Synapse Data Engineering
 2. Data Science
 3. Power BI
-![image](https://github.com/user-attachments/assets/40e0c264-9670-467b-8b75-af20a4366c0a)
 
 # Project Architecture
-![image](https://github.com/user-attachments/assets/89fccec6-f312-4c21-9369-2c463fbc92e6)
+![image](https://github.com/user-attachments/assets/40e0c264-9670-467b-8b75-af20a4366c0a)
 
-Pipeline SetUp
+# Pipeline SetUp
 1. Copy data from Blob Storage to the Lakehouse
-2. Perform transformations on data using DataflowGen2 and store the transformed data in another Lakehouse
-3. Create a Notebook to create a predictive ML model
+2. Perform transformations on data using DataflowGen2 and store the transformed data in the Lakehouse
+3. Create a Notebook to transform data further and store it in the Lakehouse. 
+4. Perform the required steps to create a predictive ML model using the transformed data.
+5. Utilize the same transformed data to create a PowerBI business analytics report.
+
 ![image](https://github.com/user-attachments/assets/8c3b39ef-330f-4169-9674-c2cea2c7c8aa)
 
 # Data Engineering
