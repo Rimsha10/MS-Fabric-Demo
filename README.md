@@ -1,9 +1,10 @@
-# MS-Fabric-Demo
-MS-Fabric-Demo-Project
-Customer Churn Prediction: In this project, we will predict whether bank customers will churn. The project requires Data ingestion and orchestration, Data Cleaning, Data Visualization, and Machine learning models. The following Microsoft Fabric workloads were used for the project delivery:
-1. Data Engineering(Data Factory & Synapse Engineering)
+# MS-Fabric
+MS-Fabric-Project
+Customer Churn Prediction: This project showcases a simple workflow in MS Fabric utilizing bank customer churn data. The project involves Data ingestion and orchestration, Data Cleaning, Data Visualization, and Machine learning models. The following Microsoft Fabric workloads were used for the project delivery:
+1. Data Factory & Synapse Data Engineering
 2. Data Science
-3. Data Analysis(Power BI)
+3. Power BI
+![image](https://github.com/user-attachments/assets/40e0c264-9670-467b-8b75-af20a4366c0a)
 
 # Project Architecture
 ![image](https://github.com/user-attachments/assets/89fccec6-f312-4c21-9369-2c463fbc92e6)
